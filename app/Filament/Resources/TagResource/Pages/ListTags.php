@@ -14,6 +14,12 @@ class ListTags extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
+            // Actions\Action::make('import_djs')
+            //     ->label('Import DJs')
+            //     ->icon('heroicon-o-arrow-up-tray')
+            //     ->color('success')
+            //     ->url(route('import.djs'))
+            //     ->openUrlInNewTab(false),
         ];
     }
 }
